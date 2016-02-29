@@ -1,6 +1,6 @@
 forked from cfs:http-methods [![Build Status](https://travis-ci.org/CollectionFS/Meteor-http-methods.png?branch=master)](https://travis-ci.org/CollectionFS/Meteor-http-methods)
 ============
-<i>why fork? replace embedded cors handler `res.setHeader("Access-Control-Allow-Origin", "http://meteor.local";)` with `res.setHeader("Access-Control-Allow-Origin", "*")`
+<i>why fork? remove embedded cors handler `res.setHeader("Access-Control-Allow-Origin", "http://meteor.local";)` 
 
 Add server-side methods to the `HTTP` object your app. It's a server-side package only *- no client simulations added.*
 
