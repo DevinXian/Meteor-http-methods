@@ -398,8 +398,6 @@ var streamHandler = function(req, res, callback) {
   Allow file uploads in cordova cfs
 */
 var setCordovaHeaders = function(res) {
-  res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader("Access-Control-Allow-Methods", "PUT");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 };
 
